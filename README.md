@@ -31,30 +31,5 @@ com.example.fakenote
 **ViewModel** -> exposes state to the UI via `StateFlow`  
 **View** -> Composable functions that react to state changes
 
-## Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| Kotlin | Primary language |
-| Jetpack Compose | UI framework |
-| ViewModel | UI state holder |
-| StateFlow | Reactive state management |
-| Material 3 | Design system |
 
-## Getting Started
-
-1. Clone the repo
-2. Open in Android Studio
-3. Run on emulator or physical device (min SDK 26)
-
-## What I Learned
-
-- How to separate concerns using the MVVM pattern
-- Managing UI state with StateFlow and collectAsState()
-- Building reactive UIs with Jetpack Compose
-- How ViewModel survives configuration changes
-- Passing data between layers without tight coupling
-
----
-
-*Built for learning purposes*
