@@ -24,14 +24,14 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.fakenote.model.Note
 import com.example.fakenote.viewmodel.NoteViewModel
 
-// ── Color Palette ────────────────────────────────────────────────
+// color palette
 private val Background = Color(0xFFF5F0EB)
 private val Surface    = Color(0xFFFFFFFF)
 private val Primary    = Color(0xFF2D2D2D)
 private val Accent     = Color(0xFFE8642C)
 private val Muted      = Color(0xFF9A9A9A)
 
-// ── Root Screen ──────────────────────────────────────────────────
+// root screen
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun NotesScreen(viewModel: NoteViewModel = viewModel()) {
